@@ -56,15 +56,55 @@
 		840E6B6825475E6800AA46A5 /* IvanovPersonalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				840E6B6925475E6800AA46A5 /* AppDelegate.swift */,
-				840E6B6B25475E6800AA46A5 /* SceneDelegate.swift */,
-				840E6B6D25475E6800AA46A5 /* ViewController.swift */,
-				840E6B6F25475E6800AA46A5 /* Main.storyboard */,
-				840E6B7225475E6B00AA46A5 /* Assets.xcassets */,
-				840E6B7425475E6B00AA46A5 /* LaunchScreen.storyboard */,
-				840E6B7725475E6B00AA46A5 /* Info.plist */,
+				840E6B7F25475EF400AA46A5 /* View Controllers */,
+				840E6B86254760BB00AA46A5 /* Models */,
+				840E6B7E25475ED100AA46A5 /* Storyboards */,
+				840E6B8025475F1700AA46A5 /* Supporting Files */,
+				840E6B8325475F5B00AA46A5 /* Resourses */,
 			);
 			path = IvanovPersonalQuiz;
+			sourceTree = "<group>";
+		};
+		840E6B7E25475ED100AA46A5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				840E6B6F25475E6800AA46A5 /* Main.storyboard */,
+				840E6B7425475E6B00AA46A5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		840E6B7F25475EF400AA46A5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				840E6B6D25475E6800AA46A5 /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		840E6B8025475F1700AA46A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840E6B7725475E6B00AA46A5 /* Info.plist */,
+				840E6B6925475E6800AA46A5 /* AppDelegate.swift */,
+				840E6B6B25475E6800AA46A5 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840E6B8325475F5B00AA46A5 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				840E6B7225475E6B00AA46A5 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		840E6B86254760BB00AA46A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BX8YUDA2X;
-				INFOPLIST_FILE = IvanovPersonalQuiz/Info.plist;
+				INFOPLIST_FILE = "IvanovPersonalQuiz/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BX8YUDA2X;
-				INFOPLIST_FILE = IvanovPersonalQuiz/Info.plist;
+				INFOPLIST_FILE = "IvanovPersonalQuiz/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
